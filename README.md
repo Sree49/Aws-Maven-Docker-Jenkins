@@ -1,4 +1,4 @@
-AWS, Maven, Docker, Jenkins Intergartion CI/CD.
+AWS, Maven, Docker (Apache Tomcat Image Build), Jenkins Intergration CI/CD.
 
 Install Jenkins, Java, Maven: 
 
@@ -57,6 +57,8 @@ Install Publish over SSH plugin and in System-> Check Publish over SSH option an
 <img src="./images/jenkins-system-ssh.png" alt="jenkins-system-ssh" width="400">
 
 Configure Job:
+
+On Build webapp/target/webapp.war file is generated. 
 
 <img src="./images/job-1.png" alt="jenkins-job-1" width="400">
 
