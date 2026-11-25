@@ -51,9 +51,24 @@ sudo chown -R ubuntu:ubuntu /opt/Docker
 //sudo systemctl restart sshd \
 //sudo passwd ubuntu 
 
+In Jenkins portal-> Install Publish over SSH plugin. \
 Install Publish over SSH plugin and in System-> Check Publish over SSH option and give pub ip of docker host and private key -> check configuration and save.
 
+<img src="./images/jenkins-system-ssh.png" alt="jenkins-system-ssh" width="400">
 
+Configure Job:
 
-In Jenkins portal-> Install Publish over SSH plugin.
+<img src="./images/job-1.png" alt="jenkins-job-1" width="400">
+
+<img src="./images/job-2.png" alt="jenkins-job-1" width="400">
+
+<img src="./images/job-3.png" alt="jenkins-job-1" width="400">
+
+<img src="./images/job-4.png" alt="jenkins-job-1" width="400">
+
+App:
+
+<img src="./images/tomcat.png" alt="tomcat" width="400">
+
+<img src="./images/app.png" alt="app" width="400">
 
