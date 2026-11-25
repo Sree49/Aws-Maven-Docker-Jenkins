@@ -36,6 +36,24 @@ In Jenkins- > Install Maven Plugins, In Tools -> Configure java and maven home d
 
 For code build-> Create one test build and select Maven Project and run "clean install".
 
+Configure Docker in new Ubuntu EC2 istance: 
+
+sudo apt update && sudo apt-get update \
+sudo apt install docker.io \
+sudo usermod -aG docker ubuntu \
+//sudo nano /etc/hostname \
+//sudo init 6 \
+sudo chown -R ubuntu:ubuntu /opt \
+sudo chown -R ubuntu:ubuntu /opt/Docker 
+
+//cd /etc/ssh \            \\set password for vm
+//sudo vi sshd_config \
+//sudo systemctl restart sshd \
+//sudo passwd ubuntu 
+
+Install Publish over SSH plugin and in System-> Check Publish over SSH option and give pub ip of docker host and private key -> check configuration and save.
 
 
+
+In Jenkins portal-> Install Publish over SSH plugin.
 
