@@ -20,9 +20,10 @@
 
     <plugins>
       <plugin>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>jetty-maven-plugin</artifactId>
-      </plugin>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-maven-plugin</artifactId>
+    <version>11.0.20</version>
+</plugin>
     </plugins>
   </build>
 
