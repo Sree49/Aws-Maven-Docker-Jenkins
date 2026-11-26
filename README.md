@@ -11,6 +11,7 @@ rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key \
 yum upgrade \
 yum install -y java-21-amazon-corretto-devel fontconfig \
 yum install jenkins -y \
+//For linux ubuntu refer: https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 sudo systemctl enable jenkins       //Enable the Jenkins service to start at boot \
 sudo systemctl start jenkins        //Start Jenkins as a service \
 java -version \
